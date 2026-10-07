@@ -20,8 +20,8 @@
     {
       "key": "TC-REL-2001",
       "source_id": "TC-AREA-0001",
-      "predicate": "LOCATED_IN",
-      "label": "宫城位于皇城内部北侧",
+      "predicate": "NORTH_OF",
+      "label": "宫城位于皇城北侧",
       "target_id": "TC-AREA-0002",
       "period_start": "隋",
       "period_end": "唐",
@@ -32,7 +32,7 @@
       "evidence_type": "推导结论",
       "review_status": "published",
       "confidence": 0.9,
-      "note": "纠正原NORTH_OF：复原图显示宫城属于皇城范围内部的北侧区域；TC-REF-0003图15、TC-CHUNK-0111辅助核验。"
+      "note": "依据原文‘宫城最在北，皇城在宫城南’纠正：二者南北相接，不作嵌套关系。"
     },
     {
       "key": "TC-REL-2002",
@@ -33139,6 +33139,1538 @@
       "review_status": "published",
       "confidence": 0.94,
       "note": "片区从属关系。"
+    },
+    {
+      "key": "TC-REL-AUTO-AREA-ADJACENT-0001-0002",
+      "source_id": "TC-AREA-0001",
+      "predicate": "ADJACENT_TO",
+      "label": "宫城与皇城相邻",
+      "target_id": "TC-AREA-0002",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2001"
+      ],
+      "evidence_quote": "故唐西京宮城最在北，皇城在宮城南。",
+      "evidence_type": "平面图推导",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "依据原文及复原图；与TC-REL-2001的NORTH_OF共同表达南北接界。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0054-0003",
+      "source_id": "TC-FANG-0054",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2112"
+      ],
+      "evidence_quote": "長安縣所領，朱雀門街之西，從北第一光祿坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0056-0003",
+      "source_id": "TC-FANG-0056",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2114"
+      ],
+      "evidence_quote": "次南豐樂坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0057-0003",
+      "source_id": "TC-FANG-0057",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2115"
+      ],
+      "evidence_quote": "次南安業坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0058-0003",
+      "source_id": "TC-FANG-0058",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2116"
+      ],
+      "evidence_quote": "次南崇業坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0059-0003",
+      "source_id": "TC-FANG-0059",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2117"
+      ],
+      "evidence_quote": "次南永達坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0060-0003",
+      "source_id": "TC-FANG-0060",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2118"
+      ],
+      "evidence_quote": "次南道德坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0061-0003",
+      "source_id": "TC-FANG-0061",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2119"
+      ],
+      "evidence_quote": "次南光行坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0062-0003",
+      "source_id": "TC-FANG-0062",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2120"
+      ],
+      "evidence_quote": "次南廷祚坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0063-0003",
+      "source_id": "TC-FANG-0063",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2121"
+      ],
+      "evidence_quote": "朱雀門街西第二街，〈北當皇城南面之含光門。〉街西從北第一太平坊。〈坊內有隋尚書左僕射趙士茂宅。〉",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0064-0003",
+      "source_id": "TC-FANG-0064",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2122"
+      ],
+      "evidence_quote": "次南通義坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0065-0003",
+      "source_id": "TC-FANG-0065",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2123"
+      ],
+      "evidence_quote": "次南興化坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0066-0003",
+      "source_id": "TC-FANG-0066",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2124"
+      ],
+      "evidence_quote": "次南崇德坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0067-0003",
+      "source_id": "TC-FANG-0067",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2125"
+      ],
+      "evidence_quote": "次南懷貞坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0068-0003",
+      "source_id": "TC-FANG-0068",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2126"
+      ],
+      "evidence_quote": "次南宣義坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0069-0003",
+      "source_id": "TC-FANG-0069",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2127"
+      ],
+      "evidence_quote": "次南豐安坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0070-0003",
+      "source_id": "TC-FANG-0070",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2128"
+      ],
+      "evidence_quote": "次南昌明坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0071-0003",
+      "source_id": "TC-FANG-0071",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2129"
+      ],
+      "evidence_quote": "次南安樂坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0072-0003",
+      "source_id": "TC-FANG-0072",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2130"
+      ],
+      "evidence_quote": "朱雀門街西第三街，即皇城西之第一街。〈南出安化門，北出芳林門入苑。〉街西從北第一修德坊。〈本貞安坊，武太后改。坊內有韋庶人父鄷王元真廟，韋氏敗後毀。〉",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0073-0003",
+      "source_id": "TC-FANG-0073",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2131"
+      ],
+      "evidence_quote": "次南輔興坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0074-0003",
+      "source_id": "TC-FANG-0074",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2132"
+      ],
+      "evidence_quote": "次南頒政坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0075-0003",
+      "source_id": "TC-FANG-0075",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2133"
+      ],
+      "evidence_quote": "次南布政坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0076-0003",
+      "source_id": "TC-FANG-0076",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2134"
+      ],
+      "evidence_quote": "次南延壽坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0077-0003",
+      "source_id": "TC-FANG-0077",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2135"
+      ],
+      "evidence_quote": "次南光德坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0078-0003",
+      "source_id": "TC-FANG-0078",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2136"
+      ],
+      "evidence_quote": "次南延康坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0079-0003",
+      "source_id": "TC-FANG-0079",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2137"
+      ],
+      "evidence_quote": "次南崇賢坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0080-0003",
+      "source_id": "TC-FANG-0080",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2138"
+      ],
+      "evidence_quote": "次南延福坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0081-0003",
+      "source_id": "TC-FANG-0081",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2139"
+      ],
+      "evidence_quote": "次南永安坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0082-0003",
+      "source_id": "TC-FANG-0082",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2140"
+      ],
+      "evidence_quote": "次南敦義坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0083-0003",
+      "source_id": "TC-FANG-0083",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2141"
+      ],
+      "evidence_quote": "次南大通坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0084-0003",
+      "source_id": "TC-FANG-0084",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2142"
+      ],
+      "evidence_quote": "次南大安坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0085-0003",
+      "source_id": "TC-FANG-0085",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2143"
+      ],
+      "evidence_quote": "朱雀門西第四街，〈即皇城西之第二街。〉街西從北第一安定坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0086-0003",
+      "source_id": "TC-FANG-0086",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2144"
+      ],
+      "evidence_quote": "次南休祥坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0087-0003",
+      "source_id": "TC-FANG-0087",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2145"
+      ],
+      "evidence_quote": "次南金城坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0088-0003",
+      "source_id": "TC-FANG-0088",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2146"
+      ],
+      "evidence_quote": "次南醴泉坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0089-0003",
+      "source_id": "TC-FANG-0089",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2147"
+      ],
+      "evidence_quote": "次南懷遠坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0090-0003",
+      "source_id": "TC-FANG-0090",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2148"
+      ],
+      "evidence_quote": "次南長壽坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0091-0003",
+      "source_id": "TC-FANG-0091",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2149"
+      ],
+      "evidence_quote": "次南嘉會坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0092-0003",
+      "source_id": "TC-FANG-0092",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2150"
+      ],
+      "evidence_quote": "次南永平坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0093-0003",
+      "source_id": "TC-FANG-0093",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2151"
+      ],
+      "evidence_quote": "次南通軌坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0094-0003",
+      "source_id": "TC-FANG-0094",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2152"
+      ],
+      "evidence_quote": "次南歸義坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0095-0003",
+      "source_id": "TC-FANG-0095",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2153"
+      ],
+      "evidence_quote": "次南昭行坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0096-0003",
+      "source_id": "TC-FANG-0096",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2154"
+      ],
+      "evidence_quote": "朱雀門街西第五街，〈即皇城西之第三街。〉街西從北第一修真坊。〈韋述曰：今坊之南門門扉，即周之太廟門板也。隋有積善寺，武德中徙義寧坊。〉",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0097-0003",
+      "source_id": "TC-FANG-0097",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2155"
+      ],
+      "evidence_quote": "次南普寧坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0098-0003",
+      "source_id": "TC-FANG-0098",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2156"
+      ],
+      "evidence_quote": "次南義寧坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0099-0003",
+      "source_id": "TC-FANG-0099",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2157"
+      ],
+      "evidence_quote": "次南居德坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0100-0003",
+      "source_id": "TC-FANG-0100",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2158"
+      ],
+      "evidence_quote": "次南羣賢坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0101-0003",
+      "source_id": "TC-FANG-0101",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2159"
+      ],
+      "evidence_quote": "次南懷德坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0102-0003",
+      "source_id": "TC-FANG-0102",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2160"
+      ],
+      "evidence_quote": "次南崇化坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0103-0003",
+      "source_id": "TC-FANG-0103",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2161"
+      ],
+      "evidence_quote": "次南豐邑坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0104-0003",
+      "source_id": "TC-FANG-0104",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2162"
+      ],
+      "evidence_quote": "次南待賢坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0105-0003",
+      "source_id": "TC-FANG-0105",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2163"
+      ],
+      "evidence_quote": "次南永和坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0106-0003",
+      "source_id": "TC-FANG-0106",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2164"
+      ],
+      "evidence_quote": "次南常安坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0107-0003",
+      "source_id": "TC-FANG-0107",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2165"
+      ],
+      "evidence_quote": "次南和平坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0108-0003",
+      "source_id": "TC-FANG-0108",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2166"
+      ],
+      "evidence_quote": "次南永陽坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0001-0003",
+      "source_id": "TC-FANG-0001",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2099"
+      ],
+      "evidence_quote": "朱雀門街東第五街，〈即皇城東之第三街。〉東從北第一坊。盡坊之地築入苑，十六宅。〈《政要》：先天之後，皇子幼則居內。東封後，以年漸成長，乃於安國寺東附苑城同為大宅，分院居之，名為十王宅，令中官押之。於夾城中起居，每日家令進膳。十王，謂慶、忠、棣、鄂、榮、光、儀、穎、永、濟也。其後盛，壽、辣、豐、恒、涼六王又就封入內宅。天玉中，惟十四王居內，而府幕列於外坊，歲時通名起居而已。外諸孫成長，又於十宅外置百孫院。十王宮人，每院四百餘人，百孫院三四百人。又於宮中置維城庫，諸王月俸物納之給",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0002-0003",
+      "source_id": "TC-FANG-0002",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2100"
+      ],
+      "evidence_quote": "次南興寧坊。〈南街東出通化門。〉大中報聖寺。〈《東觀奏記》：宣宗出內藏緡帛，建大中報聖寺，奉獻皇后容，曰介福殿。又以休憩之所為虔思殿。由復道出，造於寺。按獻皇后容，《唐語林》作憲宗御容，當從之。〉南門之東，清彈寺。〈隋開皇三年文帝為沙門曇崇所立。大中六年改為安國寺。《名畫記》：清禪寺有鄭法士畫。〉華封觀。〈天寶六載，驃騎將軍高力士舍宅置觀。〉西南隅，開府儀同三司姚元崇宅。〈屋宇並宮所造〉。安西都護郭虔瓘宅。〈在姚元崇宅東。本太平公主宅，後賜虔瓘。〉宅北，特進王毛仲宅。東南隅，",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0003-0003",
+      "source_id": "TC-FANG-0003",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2101"
+      ],
+      "evidence_quote": "次南永嘉坊。〈此坊，隋末有方士貴氣特盛。自武德、貞觀之後，公卿王主居之多於眾坊。〉東北隅，太子少師李綱宅。〈綱子孫茂盛，四代緦麻服同居，朝廷美之。〉東門之南，侍中張文璀宅。〈後並入興慶宮。〉宅東，兗州都督韋元琰宅。〈薜王妃父。〉西南隅，申王搖宅。〈本中書令許散宗宅，後為無量壽寺。寺廢，賜申王撝宅。按申王宅已見安興坊，蓋永嘉之西南即安興之東南，宅昆連二坊也。又按太宗有《許敬宗家小池賦》：引涇渭之餘潤，縈咫尺之方塘。蓋引龍首渠水為之也。〉宅南，贈禮部尚書、永興公虞世南廟。〈廟北近",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0004-0003",
+      "source_id": "TC-FANG-0004",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2102"
+      ],
+      "evidence_quote": "次南興慶坊。〈本名隆慶，明皇即位改。〉東南隅，禪林寺。〈隋時所立。〉中書令馬周宅。〈許敬宗《馬周碑》：薨於萬年縣之隆慶里第。〉尚書左僕射、溫國公蘇良嗣宅。五王宅，〈《舊書讓皇帝傳》：玄宗兄弟大足元年從幸西京，賜宅於興慶坊，亦號五王宅。及先天之後，興慶是龍潛舊邸，因以為宮。〉開元間為南內。〈見上。〉",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0005-0003",
+      "source_id": "TC-FANG-0005",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2103"
+      ],
+      "evidence_quote": "次南道政坊。〈隋有護持寺，大業七年廢。〉寶應寺。〈《代宗實錄》與《會要》曰：本王縉宅。縉為相，溺於釋教，妻李氏實妾也，大曆四年以疾請舍宅為寺。代宗嘉之，賜以題號。每有節度使至，輒諷令出錢助之。《寺塔記》：韓幹，藍田人，少時常為賞酒家送酒。王右丞兄弟未遇，每貰酒漫遊，幹嘗徵債於王家，戲畫地為人馬。右丞精思丹青，奇其意趣，乃歲與錢二萬，令學畫十餘年。今寶應寺中有韓幹畫，又有釋梵天女，悉齊公妓小小等寫真也。彌勒殿即齊公寢堂，東廊北面有楊岫之畫鬼神。《名畫記》：寶應寺又有張璪，邊鸞畫",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0006-0003",
+      "source_id": "TC-FANG-0006",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2104"
+      ],
+      "evidence_quote": "次南常樂坊。〈曲中出美酒，京都稱之。《寺塔記》言大同坊靈化寺，疑此坊亦名大同。《冊府元龜》：貞元四年月，韋士元與盧寧等四人白晝挾弓操劍，於萬年縣常樂坊盜，縣吏捕之，士元等突殺吏，步相自廷興門逸焉。〉西南隅，趙景公寺。〈隋開皇三年，獨孤皇后為父趙景武公獨孤信所立。《酉陽雜俎》曰：隋本日弘善寺，至開皇十八年政。《名畫記》：景公寺西門內西壁有吳畫帝釋，其南廊亦吳畫，東廊南間東門南壁有畫行僧，轉目視人。《寺塔記》：景公寺三階院西廊下，范長壽畫西方變及十六對事，寶池尤妙絕、諦視之，覺水",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0007-0003",
+      "source_id": "TC-FANG-0007",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2105"
+      ],
+      "evidence_quote": "次南靖恭坊。〈「靖二作「靜」。寶應二年，萬年縣靖恭防南街柳樹上降甘露，有賀表。〉十字街南之西，袄祠。〈《通典》：唐有符袄正。〉西北隅，駙馬都尉楊慎交宅。〈中宗第四女長寧公主下嫁楊慎交。《新書》《長寧公主傳》：取西京高士廉第、左金吾衛故營合為宅，右屬都城，左頫大道。作三重樓以憑觀，築山浚池，帝及後數臨幸，置酒賦詩。又並坊西隙廣鞠場。〉司農卿韋玢宅。〈在楊慎交宅南，隔街。〉中書舍人王敬從宅。〈開元中為給事中、中書舍人。畢氏曰：孫逖《神道碑》：敬從官終太子右庶子。〉忠武將軍、行薛王",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0008-0003",
+      "source_id": "TC-FANG-0008",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2106"
+      ],
+      "evidence_quote": "次南新昌坊。〈南街東出廷興門。〉南門之東，青龍寺。〈本隋靈感寺，開皇二年立。文帝移都，徙掘城中陵墓，葬之郊野，因置此寺，故以靈感為名。至武德四年廢。龍朔二年，城陽公主復奏立為觀音寺。初公主疾甚，有蘇州僧法朗誦《觀音經》，乞願得愈，因名焉。景雲二年改為青龍寺。北枕高原，南望爽塏，為登眺之美。《名畫記》：青龍寺中有王韶應畫。《東觀奏記》：宣宗動遵元和故事，以憲宗曾幸青龍寺，命復道開便門至青龍佛宮。《太平廣記》引逸史：江陵副使李君下第困迫，於青龍寺門前坐。又《唐語林》：趙璟閑居慕靜",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0009-0003",
+      "source_id": "TC-FANG-0009",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2107"
+      ],
+      "evidence_quote": "次南昇道坊。太子太保鄭畋宅。〈見《劇淡錄》。〉太原府司錄事參軍李雍宅。〈權德輿《李雍墓誌》：歿於長安昇道里。〉進士張庾宅。〈《績玄怪錄》：張庾舉進士，居長安昇道里，南街盡是墟墓，絕無人住。〉進士謝翱宅。〈《宣室志》：陳郡謝翱舉進士，寓居長安昇道里。所居庭中多牡丹，一日晚霽，出其居南，行百步，眺終南峰，佇立久之。見一騎自西馳來，雙鬟高髻，色甚殊麗，降拜曰：「願郎歸所居。」翱即回，望其居見青衣三四人，皆立其門外。頃之有金車至門，見一美人年十六七，風貌閑麗，入門與翱相見於西軒，謂翱",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0010-0003",
+      "source_id": "TC-FANG-0010",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2108"
+      ],
+      "evidence_quote": "次南立政坊。〈隋有弘化寺，大業七年廢。按《長安圖》，此坊分為談寧坊，非是。〉讓皇帝廟。〈《禮閣新儀》曰：開元二十九年，建廟於啟夏門內立政坊。上元二年，禮儀使杜鴻漸請停四時享獻，每至褚袷之月則一祭焉。〉河東節度使韋湊家廟。〈大中五年，湊孫武昌軍節度使損請重修廟。〉",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0011-0003",
+      "source_id": "TC-FANG-0011",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2109"
+      ],
+      "evidence_quote": "次南敦化坊。〈一作「敦教坊」，《太平御覽》引作「通化坊」。按《長安圖》分為長和坊，非是。《酉陽雜俎》曰：長安敦化坊百姓家，唐大和中有木蘭一樹，花色深紅。後桂州觀察使李勃看宅人以五千買之。宅在水北，經年花紫色。〉東門之北，都亭驛。十字街之北，淨影寺。〈隋文帝為沙門惠遠立，寺額申州刺史殷仲容所題。〉東南隅，行台左僕射、鄖國公殷開山宅。〈本隋蔡王智積宅。〉西門之北，秘書監顏師古宅。太常少卿歐陽詢宅。著作郎沈越賓宅。〈貞觀、永徽間，顏師古、歐陽詢、沈越賓住此坊。顏即南朝舊族，歐陽輿沈",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0012-0003",
+      "source_id": "TC-FANG-0012",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2087"
+      ],
+      "evidence_quote": "朱雀門街東第四街，〈即皇城東之第二街。〉街東從北第一長樂坊。〈後改延政坊。按坊之北即延政門，故以門名坊。〉大半以東，大安國寺。〈睿宗在藩舊宅，景雲元年立為寺，以本封安國為名。憲宗時，吐突承璀盛營安國寺，欲使李絳為碑文，絳不肯撰。後寢摧圮，宣宗欲復修，未克而崩。成通七年，以先帝舊服御及孝明太皇太后金帛俾左神策軍再建之。寺有紅樓，睿宗在藩時舞榭。元和中，廣宣上人住此院，有詩名，時號為「紅樓集」。《寺塔記》：東禪院亦曰木塔院。院門西北廊五壁，吳道玄弟子釋思畫釋梵八部，不施彩色，尚有",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0013-0003",
+      "source_id": "TC-FANG-0013",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2088"
+      ],
+      "evidence_quote": "次南太寧坊。東南隅，興唐寺。〈神龍元年，太平公主為武太后立馬罔極寺，窮極華麗，為京都之名寺。開元二十年，改為興唐寺，明皇御容在焉。《酉腸雜俎》：長安興唐寺有牡丹一棵，元和中著花二千一百朵。《名畫記》：興唐寺有吳道玄、楊延光、周防、尉涇乙僧、董謬、尹琳、楊坦、楊喬、李生畫。又有韓幹畫一行大師真，徐浩書讚。〉西南隅，太清官。〈《禮閣新儀》曰：開元二十九年，始詔兩京及諸州各置玄元皇帝廟一所，依道法醮：天寶元年正月，陳王府參軍田同秀上言，玄元皇帝降，見於丹鳳門之通衢，以天下太平、聖壽",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0014-0003",
+      "source_id": "TC-FANG-0014",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2089"
+      ],
+      "evidence_quote": "次南安興坊。〈後改廣化坊。隋有總化寺，大業七年廢。《舊書裴度傳》：度出通化里，盜三以劍擊度。按度自永樂里入朝，必經安興之西，其曰通化者，安興東抵通化門也。〉玉山營。見楊復恭宅下。〈樂官院。《樂府親錄》：廣化里、太平里各署樂官院一所。〉南門之東，申王撝宅。宅以東，歧王範宅。〈《長安忘》：南門之東，察王憲宅。按《舊書》《讓皇帝傳》：憲於勝業東南角賜宅，申王檻、歧王範於安興坊東南賜宅。則「寧王憲」為「申王播」之訛，今正。〉太子少保、戶部尚書韓良宅。〈於誌寧《潁川定公碑》：遘疾，薨於",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0015-0003",
+      "source_id": "TC-FANG-0015",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2090"
+      ],
+      "evidence_quote": "次南勝業坊。〈本名宜仁，後改。《朝野僉載》：鄒駱駝，長安人。先貧，嘗以小車推蒸餅賣之。每勝業坊角有伏博，車觸之即翻，塵土沈其餅。駝苦之，乃將鑼去十餘埤，下有瓷甕容五斛許，有金數斗，於是巨富。《劇譚錄》：咸通中，左軍張季宏勇而多力。嘗雨中經勝業坊，遇泥濘深隘，有村人驅驢負薪，適當其道，季宏捉驢四足，擲遇水渠數步。〉西南隅，勝業寺。〈武德初，高祖為沙門景暉立。景暉言事多中，高阻籠潛，景暉夙啟先覺。既立寺，其坊因此改名。寺東又為立祠焉。〉十字街北之西，修慈尼寺。〈本宏濟僧寺，隋開皇",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0016-0003",
+      "source_id": "TC-FANG-0016",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2092"
+      ],
+      "evidence_quote": "次南安邑坊。〈隋有右武衛大將軍、宋國公賀若弼宅。〉奉誠園。〈本司徒兼侍中馬燧宅。燧子少府監暢，以貲甲天下。貞元末，神策中尉申誌廉諷使納田產，遂獻舊第。《國史補》曰：暢以第中大杏饋竇文場，以進德宗。德宗未嘗見，頗怪之，令中使就封杏樹。暢懼，進宅，廢為奉誠園，屋木皆拆入內。韓愈《馬繼祖墓誌》：始予初冠，應進士貢，在京師窮不自存，以故人稚弟，拜北平王於馬前。王問而憐之，因得見於安邑里第。北平王即隧也。竇牟《奉城圖聞笛詩》注：園馬侍中故宅。元稹詩注同。杜枚《過田家宅詩》：安邑南門外，",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0017-0003",
+      "source_id": "TC-FANG-0017",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2093"
+      ],
+      "evidence_quote": "次南宣平坊。〈「平「或作「政」。《酉陽雜俎》：京宣平坊有官人夜歸入曲，有賣油者張帽馱桶，不避道。導者搏之，頭隨而落，遂遽入一大宅門，官人隨入，至一大槐樹下遂滅。張繽有《和許棠題宣平里古藤詩》。《南部新書》寶曆二年六月，京兆府奏法曹參軍獨孤謂蹤跡得去年十月於宣平坊北門外殺人、並剝人面皮賊熊元果等三人。〉東南隅，舊諸王府。〈《唐會要》：寶曆三年六月，瓊莊府長史裴簡求狀：伏見諸王府本在宣平坊東南角，摧毀多年，因循不修。至元和十三年七月十三日，莊宅使收管。其年八月二十五日，賣與邪寧節",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0018-0003",
+      "source_id": "TC-FANG-0018",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2094"
+      ],
+      "evidence_quote": "次南昇平坊。東北隅，漢樂跡廟。〈漢宣帝所立，因樂遊苑為名，在高原上，餘尚存。長安中，太平公主於原上置亭遊賞，後賜寧、申、吱、薛王。其地居京城之最高，四望寬敞，京城之內，俯視指掌。每正月晦日、三月三日、九月九日，京城士女成就此登賞祓禊。按白居易《登樂遊園望詩》：東北何靄靄，宮闕人煙雲。蓋言南內之宮闕也。沈既濟《任氏傳》：天寶九年六月，韋，與鄭子偕行於長安陌中，將會飲於新昌里。至宣平之南，鄭子辭有故，請間去。乘白馬而東，鄭子乘驢而南，入升平之北門。偶值三婦人，行於道中，鄭子隨之東",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0019-0003",
+      "source_id": "TC-FANG-0019",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2095"
+      ],
+      "evidence_quote": "次南修行坊。〈本名修華，武太后時避諱改修行坊。景雲元年復舊，後又改之。隋肓通法寺，大業七年廢。〉贈太子少保鄭宜尊宅。蒲州刺史杜從則宅。工部尚書李建宅。〈按白行簡《三夢記》：元和四年，可南元微之為監察御史，奉使劍外。去逾旬，子與仲兄樂天、隴西李杓直同遊曲江，詣慈恩佛舍，遍曆僧院，淹留移時。日已晚，同詣杓直修行里第，命酒對酬，甚億暢。〉嶺南節度使胡證宅。〈證在鎮好聚斂自奉，修行妨第連亙閭巷，車器奢侈，議者非之。李訓敗，衛軍利其財，聲言賈鏈匿其家，爭入剽劫，執其子澱，內左軍斬之。〉",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0020-0003",
+      "source_id": "TC-FANG-0020",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2096"
+      ],
+      "evidence_quote": "次南修政坊。〈按《文安縣主墓誌》作「循政里」，循、修雙聲，古通用。〉尚書省亭子。宗正寺亭子。〈《輦下歲時記》曰：新進士牡丹宴，或在於此。〉文安縣主宅。〈巢刺王女，降段儼。〉尚書右丞相張九齡宅。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0021-0003",
+      "source_id": "TC-FANG-0021",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2097"
+      ],
+      "evidence_quote": "次南青龍坊。東南隅，廢普耀寺，〈隋開皇三年，獨孤皇后為外祖崔彥珍所立。開元二年廢。〉西南隅，廢日嚴寺。〈隋煬帝為晉主，仁壽元年施營第材木所造，因廣招名僧以居之。貞觀六年廢。〉",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0022-0003",
+      "source_id": "TC-FANG-0022",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2098"
+      ],
+      "evidence_quote": "次南曲池坊。〈坊南街抵京城之南面，以近芙蓉園，因以名。〉東北隅，廢建福寺。〈龍朔三年為新成公主所立。其地本隋天寶寺，寺內隋彌勒閣崇一百五十尺。開元二年廢。〉坊北有殯宮〈《秦州都督府士曹參軍口瑤墓誌》：殯於雍州萬年縣曲他坊之北一百步。〉右皇城東第二街十一坊及東市。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0023-0003",
+      "source_id": "TC-FANG-0023",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2072",
+        "TC-CHUNK-2073"
+      ],
+      "evidence_quote": "本翊善一坊之地，置大明宮後，開丹鳳門街，遂分為二坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0024-0003",
+      "source_id": "TC-FANG-0024",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2074",
+        "TC-CHUNK-2075"
+      ],
+      "evidence_quote": "本永昌一坊之地，與翊善坊同分。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0025-0003",
+      "source_id": "TC-FANG-0025",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2076"
+      ],
+      "evidence_quote": "次南永興坊。〈隋有善果寺，大業中廢。隋右驍衛將軍長孫晟居於比。太宗文德順聖皇后長孫氏，晟之女，大業中後常歸寧。〉西南隅，左金吾衛。〈神龍中自崇仁坊徙。〉十字街西之北，〈按十字街，《長安志》皆刪「十字」二字，令從《兩京記》增，後仿此。〉荷恩寺。〈景雲元年睿宗立。〉西門之北，太子太師、鄭國公魏徵宅。〈本隋安平公宇文愷宅。封演《見聞錄》曰：徵所居室屋卑陋，太宗欲為營構，徵謙讓不受。泊徵寢疾，太宗將營小殿，遂撤其材為造正堂，五日而就。開元中，此堂猶在，家人不謹，遺火燒之，子孫哭臨三日",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0026-0003",
+      "source_id": "TC-FANG-0026",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2077"
+      ],
+      "evidence_quote": "次南崇仁坊。〈北街當皇城之景風門，與尚書省選院最相近，又與東市相連，選人京城無第宅者多停憩此。因是一街幅輳，遂傾兩市，晝夜喧呼，監火不絕，京中諸坊莫之與比。大曆中，魚朝恩於坊之南街設齋會，奏內坊音樂。《長安志》載昌化坊而不知所在。按坊內有禮賓院及岐陽公主宅，禮賓院舊在崇仁坊，岐陽宅內雲疏龍首池為沼，崇仁坊正龍首渠所經，蓋昌化即崇仁之異名。故以昌化各宅附此坊下。〉坊南門之西，禮會院。〈本長寧公主宅。主及駙馬楊慎交奏割宅向西一半，官市為禮會院，每公主、郡縣主出降，皆就此院成禮，開",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0027-0003",
+      "source_id": "TC-FANG-0027",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2078"
+      ],
+      "evidence_quote": "次南平康坊。南門之東，菩提寺。〈隋開皇二年，瓏西公李敬道及僧惠英所奏立寺。《酉陽雜俎》曰：寺之制度，鍾樓在東，惟此寺緣李林甫宅在東，故建鍾樓於西。寺內有郭令玳瑁鞭及郭令王夫人七寶帳。大中六年，改為保唐寺。《寺塔記》：佛殿東西障日及諸柱上圖畫，是東廊舊鄭法士畫，開元中因屋壞，移人大佛殿內槽北壁。食堂前東壁上，吳道玄畫《智度論色褐》變，偈是吳自題，筆跡遒勁，如磔鬼神毛發。次堵畫禮骨仙人，天衣飛揚，滿壁風動。佛殿內槽後壁，吳道玄畫《消災經》事，樹石古險，元和中上欲令移之，慮其摧壞，",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0028-0003",
+      "source_id": "TC-FANG-0028",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2079"
+      ],
+      "evidence_quote": "次南宣陽坊。東南隅，萬年縣廨。〈去府七里，縣門屋宇文愷所造。太平公主降薛紹，於縣廨設婚席。初以縣門隘窄，欲殿之。高宗敕，宇文愷所造，製作多奇，不須殿拆也。〉榷鹽院。坊西南隅，淨域寺。〈隋文帝開皇五年立。恭帝禪位，止於此寺，薨焉。《酉陽雜俎》曰：本太穆皇后宅。寺僧，三階院門外是神堯皇帝射孔雀處。佛殿內西座蕃神甚古質。貞元已前，西蕃兩度盟，皆載此神，立於壇而誓。相傳當時頗有靈。《寺塔記》：王昭隱畫門西裹和修吉龍王有靈。門外之西，火目藥叉及北方天王甚奇猛。門東里面賢門，野叉部落鬼首",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0029-0003",
+      "source_id": "TC-FANG-0029",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2080"
+      ],
+      "evidence_quote": "次南親仁坊。西南隅，咸宜女冠觀。〈睿宗在藩之第，明皇升極於此。開元初，置昭成、肅明二皇后廟，謂之儀坤廟。睿宗升遐，昭成遷入太廟，而肅明留於此。開元二十一年，肅明皇后亦襯入太廟，遂為肅明道士觀。寶應元年，成宜公主人道，與太真觀換名焉。《名晝記》：成宜觀有吳道玄、解倩、楊廷光、陳閎畫。《南部新書》：長安士大夫之家，入道盡汪或宜。按女道土魚玄幾住咸成宜觀。〉回元觀。〈即安祿山舊宅。《祿山故事》曰：舊宅在道政坊，玄宗以其隘陋，更於親仁坊眩╉爽之地，出內庫錢更造。堂皇院宇，戽寐周幣，帳",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0030-0003",
+      "source_id": "TC-FANG-0030",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2081"
+      ],
+      "evidence_quote": "次南永寧坊。〈隋有明覺寺，大業七年廢。坊南門之東，隋蘇威宅。西門之北，隋田弘宅。弘子仁恭、德懋及孫元基，並以孝義旌表，時論美之。〉東南隅，京兆府籍坊。〈按此《長安志》文，籍坊未詳。或徒坊、病坊之類，俟考〉。司天監。〈乾元元年，政太史監為司天監，於永寧坊張守宅置官六十人。其地即安祿山所賜永寧園也。〉永寧園。〈賜祿山永寧園為邸，又賜永穆公主池觀為遊燕地。〉南門之西，禮部尚書裴行儉宅。東門之北，贈太尉、祁國公王仁皎宅。〈本禮部尚書鄭善果宅，後臨江王囂買之。神龍初。宗正卿李晉居焉，繕",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0031-0003",
+      "source_id": "TC-FANG-0031",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2082"
+      ],
+      "evidence_quote": "次南永崇妨。東南隅，七太子廟。〈其地本萬、變六州之邸，總章中以為明縣，後徒縣於永樂坊神龍初，立懿德太子廟，即中宗之長子。《禮閣新儀》曰：天寶六載詔，章懷、節湣、惠莊、惠宣、惠文太子雖官為立廟，比來子孫自祭，或時物有闕，禮儀不備。宜與隱太子及懿德太子列次諸室，同為一廟。遂於永崇坊東街就懿德太子同立廟，呼為七太子廟。寶應三年停享，大曆三年又加靖恭太子一室。〉廟西，靈應觀。〈隋道土宋道標所立。〉宗道觀。〈本興信公主宅，賣與劍南節度使郭英乂，其後入官。大曆十二年，為華陽公主追福，立為",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0032-0003",
+      "source_id": "TC-FANG-0032",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2083"
+      ],
+      "evidence_quote": "次南昭國坊。〈隋有香海寺，大業七年廢。此坊本犯中宗廟諱，長安中改「昭」。或作「招」，誤。按韋應物有《過昭國里故第詩》，又有《昭國里第聽元老師彈琴詩》，皆未知何人之第。〉西南隅，崇濟寺，〈本隋修慈寺，開皇三年魯郡夫隊孫氏立。貞觀二十三年，以尼寺與慈恩僧寺相鄰，而勝業坊世露尼寺又比於宏濟換所居，為本宏寺」神龍中改。《寺塔記》：寺內有天後織成蛟龍被復子及繡衣六事，東廊從南、第二院有宜律師製袈裟堂。〉太府少卿裴子餘宅。〈即廢香海之地。〉前進士李蒙宅。〈《獨異志》：開元五年進士及第李蒙",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0033-0003",
+      "source_id": "TC-FANG-0033",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2084"
+      ],
+      "evidence_quote": "次南晉昌坊。〈「晉或作「進」。〉半以東，大慈恩寺，〈隋無漏寺之地，武德初廢。貞觀二十二年十二月二十四日，高宗在春宮，為文德皇后立為寺，故以慈恩為名，仍選林泉形勝之所。寺戍，高宗親幸，佛像幡華並從宮中出，太常九部樂送額至寺。寺南臨黃渠，水竹森邃，為京都之最。會昌五年，詔天下廢寺，上都每街各留寺兩所，僧各三十人。左街留慈恩、薦福，右街留西明、莊嚴。六年，左街添置寺八所，興唐寺、保壽寺兩所依舊額，六所改名。僧寺四所：寶應寺改為資聖寺，青龍寺改為護國寺，菩提寺改為保唐寺，清禪寺改為安",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0034-0003",
+      "source_id": "TC-FANG-0034",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2085"
+      ],
+      "evidence_quote": "次南通善坊。杏園。〈為新進士宴遊之所。按貞元四年以《曲江亭望慈恩寺杏園花發詩》試進士。慈恩、杏園，皆在曲江之西南也。〉",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
+    },
+    {
+      "key": "TC-REL-AUTO-FANG-LOCATED-0035-0003",
+      "source_id": "TC-FANG-0035",
+      "predicate": "LOCATED_IN",
+      "label": "位于",
+      "target_id": "TC-AREA-0003",
+      "period_start": "隋",
+      "period_end": "唐",
+      "evidence_ids": [
+        "TC-CHUNK-2086"
+      ],
+      "evidence_quote": "次南通濟坊。〈坊南街抵城之南面。〉侍中、抉陽郡王桓彥範宅。山南西道節度使令狐楚家廟。尚書右僕射盧鈞家廟。劉得仁宅。〈劉得仁有《夏日通濟里居酬諸先輩見訪詩》，又《通濟里居酬盧肇見尋不遇詩》。〉右皇城東第一街，十五坊。",
+      "evidence_type": "史料直述",
+      "review_status": "published",
+      "confidence": 0.9,
+      "note": "由坊功能表及108坊空间体系转换。"
     }
   ]
 }

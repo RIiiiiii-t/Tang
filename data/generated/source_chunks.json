@@ -1704,9 +1704,9 @@
       "related_entity_keys": "TC-FANG-0052",
       "evidence_type": "史料直述",
       "confidence": 0.82,
-      "review_status": "待扫描版核实",
+      "review_status": "审核通过",
       "note": "AI自主初审；“吳天觀”疑为“昊天觀”，原文不改。",
-      "status": "draft"
+      "status": "published"
     },
     {
       "chunk_key": "TC-CHUNK-2062",

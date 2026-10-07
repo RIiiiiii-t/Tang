@@ -1,8 +1,8 @@
 {
   "source_file": "E:\\研\\研0\\挑战杯\\0726 知识库\\唐长安城知识图谱数据工程\\05-Excel数据\\01-当前总表\\BATCH-MASTER-0001_A_卷一至卷四与大事记29条_联合总表_20260823.xlsx",
   "source_filename": "BATCH-MASTER-0001_A_卷一至卷四与大事记29条_联合总表_20260823.xlsx",
-  "source_sha256": "300b64429e8460bc2451f50b4cc6893b3c3967dff03770277309d832657fd2df",
-  "exported_at": "2026-08-30T12:53:25+08:00",
+  "source_sha256": "786d487c5058d7ef401f49dfb2a456750c7affa363ef0455f4afae6cb1b0b588",
+  "exported_at": "2026-10-07T19:49:04+08:00",
   "workbook_sheets": [
     {
       "sheet": "填写说明",
@@ -57,7 +57,7 @@
     {
       "sheet": "实体表",
       "header_row": 3,
-      "row_count": 1628,
+      "row_count": 1632,
       "headers": [
         "entity_key",
         "name",
@@ -79,7 +79,7 @@
     {
       "sheet": "关系表",
       "header_row": 3,
-      "row_count": 1974,
+      "row_count": 2171,
       "headers": [
         "relation_key",
         "source_key",
@@ -149,7 +149,9 @@
         "evidence_type",
         "confidence",
         "review_status",
-        "note"
+        "note",
+        "east_west_width_m",
+        "north_south_depth_m"
       ]
     },
     {
